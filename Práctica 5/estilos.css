@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* Rocha Banda Aldo Angel */
+}
+.contenedor{
+    background-color: pink;
+    width: auto;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.formulario{
+    background-color: violet;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px black;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px black;
+}
+input{
+    width: 120px;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 3px 3px 6px black;
+    border: 0;
+}
+img{
+    border-radius: 5px;
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 4px 4px 6px rgb(151, 149, 149);
+}
+.imagenes{
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    
+    
+}
+#t1 , .t1{
+    background-color: #d64cbf;
+}
+#t2,.t2{
+    background-color: #ea66fc;
+}
+#t3,.t3{
+    background-color: #d67be2;
+}
+#t4,.t4{
+    background-color: #f573df;
+}
+#t5,.t5{
+    background-color: #ffc2f5;
+}
+#t6,.t6{
+    background-color: #ffb1f9;
+}
+table{
+    text-align: center;
+}
